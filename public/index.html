@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=1140px">
+
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+        <title>easy_ajax_tabs</title>
+        <link href="css/plugins.min.css" rel="stylesheet">
+        <link href="css/jquery.easy-ajax-tabs.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xs-6">
+                            <ul class="tabs_menu">
+                                <li class="active"><a href="test1.html">content-1</a></li>
+                                <li><a href="test2.html">content-2</a></li>
+                                <li><a href="test3.html">content-3</a></li>
+                                <li><a href="test4.html">content-4</a></li>
+                            </ul>
+                        </div>
+                        <div class="col xs-6">
+                            <a href="/" class="logo"><span>Easy ajax tabs</span></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col xs-12">
+                            <button class="btn__gitHub">More on gitHub</button>
+                            <div class="tabs_container">
+                                <div class="ajax-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="js/jquery.js"></script>
+        <script src="js/plugins.min.js"></script>
+        <script src="js/jquery.easy-ajax-tabs.js"></script>
+        <script src="js/scripts.min.js"></script>
+        <script>
+            $(window).ready(function () {
+                $('.tabs_menu').easy_ajaxTabs({
+                    preload: true
+                });
+            });
+        </script>
+    </body>
+</html>
