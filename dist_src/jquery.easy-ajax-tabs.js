@@ -84,7 +84,7 @@ Release date: 18.08.2017
                     this_attr = this_btn.attr('data-href');
                 }
 
-                $this.trigger('eat.onActive');
+                $this.trigger('eat.onActive'); //event
 
                 /*Ajax request*/
                 $.ajax({

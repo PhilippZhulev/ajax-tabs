@@ -1,5 +1,7 @@
 ## Jquery.easy_ajaxTabs
 
+**DEMO:** https://philippzhulev.github.io/ajax-tabs/public/
+
 **description:**
 
 Tabs for website or a web application with the ajax download function.
