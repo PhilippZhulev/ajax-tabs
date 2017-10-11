@@ -6,7 +6,7 @@
 
 Tabs for website or a web application with the ajax download function.
 
-#### Get started
+### Get started
 
 **To plug**
 ```html
