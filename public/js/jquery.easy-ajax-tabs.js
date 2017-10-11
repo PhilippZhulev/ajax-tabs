@@ -60,14 +60,13 @@ Release date: 18.08.2017
 
         var $pre_loader = $('.eat__pre-loader');
 
+        var btn_length =  tab_btn.length;
 
-        function find_btn(obj) {
-            if(tab_btn.length < 1) {
-                return obj;
-            }
+        if(btn_length < 1) {
+            tab_btn = $this.find('[data-href]');
         }
 
-        find_btn(tab_btn = $this.find('button'));
+        console.log(tab_btn)
 
         /*Activation when click*/
         tab_btn.on('click on.tabActive', function(){
@@ -81,7 +80,9 @@ Release date: 18.08.2017
                 /*Take url*/
                 var this_attr = this_btn.attr('href');
 
-                find_btn(this_attr = this_btn.attr('data-href'));
+                if(btn_length < 1) {
+                    this_attr = this_btn.attr('data-href');
+                }
 
                 $this.trigger('eat.onActive');
 
@@ -141,7 +142,9 @@ Release date: 18.08.2017
         /*Preload function*/
         if(options.preload == true) {
             load_frame ($this.find('.active').children().attr('href'), 'eat.preloadReady'); //event
-            find_btn(load_frame ($this.find('.active').attr('data-href'), 'eat.preloadReady'));
+            if(btn_length < 1) {
+                load_frame ($this.find('.active').attr('data-href'), 'eat.preloadReady');
+            }
         }
 
     };
