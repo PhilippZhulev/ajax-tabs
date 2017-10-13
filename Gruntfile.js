@@ -48,7 +48,7 @@ module.exports = function(grunt) {
             },
             my_target_2: {
                 files: {
-                    'dist/jquery.easy-ajax-tabs.js': ['dist_src/*.js']
+                    'dist/jquery.easy-ajax-tabs.min.js': ['dist_src/*.js']
                 }
             },
         },
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
             },
             target_4: {
                 files: {
-                    'dist/jquery.easy-ajax-tabs.css': ['dist_src/*.css']
+                    'dist/jquery.easy-ajax-tabs.min.css': ['dist_src/*.css']
                 }
             },
         },

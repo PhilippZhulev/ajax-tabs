@@ -8,6 +8,11 @@ Tabs for website or a web application with the ajax download function.
 
 ### Get started
 
+**Node package manager:**
+```html
+npm install easy-ajaxTabs
+ ```
+
 **To plug**
 ```html
 <link href="css/jquery.easy-ajax-tabs.css" rel="stylesheet">
@@ -140,6 +145,6 @@ ______plugins       -->  Plu-ins
 ```
 
 
-### Лицензия
+### License
 
 © Philipp Zhulev [MIT License](LICENSE).

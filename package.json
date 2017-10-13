@@ -1,9 +1,9 @@
 {
   "name": "easy-ajaxTabs",
   "description": "tabs ajax for web-app and web-site",
-  "version": "1.08.0",
-  "main": "./dist/jquery.easy-ajax-tabs.js",
-  "style": "./dist/jquery.easy-ajax-tabs.css",
+  "version": "1.8.2",
+  "main": "dist/jquery.easy-ajax-tabs.js",
+  "style": "dist/jquery.easy-ajax-tabs.css",
   "author": {
     "name": "Philipp Zhulev",
     "email": "Filippja@gmail.com"
@@ -11,7 +11,7 @@
   "license": "MIT License (MIT)",
   "repository": {
     "type": "git",
-    "url": "git:https://github.com/PhilippZhulev/"
+    "url": "https://github.com/PhilippZhulev/ajax-tabs"
   },
   "dependencies": {
     "jquery": ">=1.8.3"
