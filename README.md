@@ -10,7 +10,7 @@ Tabs for website or a web application with the ajax download function.
 
 **Node package manager:**
 ```html
-npm install easy-ajaxTabs
+npm install easy__ajax_tabs
  ```
 
 **To plug**
